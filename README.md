@@ -15,3 +15,5 @@
 - Let user choose what data is shown in the pop-ups
 - Handle busses that are done for the day
 
+## License
+[MIT License](LICENSE)
