@@ -1,0 +1,56 @@
+#map {
+    width: 98%;
+    height: 100%;
+    border: solid 2px grey;
+	grid-row: 1;
+	grid-column: 2;
+}
+
+.none { background-image:url(images/busIcon-NoSeats.png); }
+.many { background-image: url(images/busIcon-ManySeats.png);}
+.few { background-image: url(images/busIcon-FewSeats.png);}
+.default { background-image: url(images/busIcon-NoData.png);}
+
+.marker {
+  background-size: cover;
+  width: 50px;
+  height: 50px;
+  border-radius: 50%;
+  cursor: pointer;
+  offset: 25px,50px;
+}
+img {
+	height: 30px;
+}
+td {
+	padding: 0px;
+	color: aliceblue;
+}
+body {
+	background-color: #222;
+}
+h1, h2{
+	color: grey;
+}
+
+h3, label{
+	color: lightgrey;
+}
+.contentGrid{
+	display: grid;
+	grid-template-columns: .12fr .88fr;
+	height: 700px;
+}
+.legend{
+	grid-row: 1;
+	grid-column: 1;
+
+}
+.mapWrapper {
+	grid-row: 1;
+	grid-column: 2;
+}
+
+div{
+	border-width: 1px;
+}
