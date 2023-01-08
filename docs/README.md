@@ -5,7 +5,7 @@
 - This code will track the location, capacity, direction, and next stop of buses along MTBA Route 1
 
 ## Sample Screenshot
-![sample image](docs/sample.gif)
+![sample image](https://github.com/EvanGeer/MITxMERN-TransitTracker/blob/master/docs/sample.gif)
 
 ## How to use
 - Clone repo and load index.html
